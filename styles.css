@@ -1,0 +1,31 @@
+/* Custom styles to ensure full height without scrolling */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.link-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-affiliates {
+    background-image: url("/images/bg-background.jpg"); /* Use a relevant image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
